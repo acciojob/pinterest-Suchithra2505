@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+.hero{
+	display:flex;
+	justify-content:left;
+	align-items:center;
+	height:300px;
+	width:100vw;
+	background-color:lightgray;
+	gap:20px;
+}
+#p1{
+	font-size:10px;
+	align-items:center;
+}
+.items{
+	height:200px;
+	width:600px;
+	display:block;
+	padding-top:100px;
+	display-wrap:wrap;
+	align-items:center;
+}
+.items>h1{
+	font-size:15px;
+}
+.hero>img{
+	width:200px;
+	height:200px;
+	object-fit: cover;
+	padding-left:10px;
+}
+#bt1{
+	padding:10px 10px 10px 10px;
+	background-color:red;
+	display:flex;
+	color:white;
+	height:25px;
+	border-radius:5px;
+	font-size:10px;
+	padding-bottom:10px;
+}
